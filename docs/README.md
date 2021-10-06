@@ -3,20 +3,20 @@ layout: home
 permalink: index.html
 
 # Please update this with your repository name and project title
-repository-name: eYY-3yp-project-template
-title: Project Template
+repository-name: e16-CO328-online-selling-platform
+title: Online Selling Platform
 ---
 
-[comment]: # "This is the standard layout for the project, but you can clean this and use your own template"
-
-# Project Title
+# Online Selling Platform
 
 ---
 
 ## Team
--  eNumber, Name, [email](mailto:name@email.com)
--  eNumber, Name, [email](mailto:name@email.com)
--  eNumber, Name, [email](mailto:name@email.com)
+>  **E/16/054, Sathira Basnayake, [email](e16054@eng.pdn.ac.lk)**
+
+>  **E/16/351, Madusha Shanaka, [email](e16351@eng.pdn.ac.lk)**
+
+>  **E/16/389, Nadun Welikanda, [email](e16389@eng.pdn.ac.lk)**
 
 <!-- Image (photo/drawing of the final hardware) should be here -->
 
@@ -64,10 +64,7 @@ What was achieved, future developments, commercialization plans
 
 ## Links
 
-- [Project Repository](https://github.com/cepdnaclk/{{ page.repository-name }}){:target="_blank"}
-- [Project Page](https://cepdnaclk.github.io/{{ page.repository-name}}){:target="_blank"}
+- [Project Repository](https://github.com/cepdnaclk/e16-CO328-online-selling-platform)
+- [Project Page]()
 - [Department of Computer Engineering](http://www.ce.pdn.ac.lk/)
 - [University of Peradeniya](https://eng.pdn.ac.lk/)
-
-[//]: # (Please refer this to learn more about Markdown syntax)
-[//]: # (https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
