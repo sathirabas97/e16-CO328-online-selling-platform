@@ -5,8 +5,8 @@ const router = express.Router();
 
 router.get('/', (req, res, next) => {
     res.status(200).send({
-        title: "iNimal API - Administrator",
-        version: "0.1"
+        title: "Akbar Animal Care",
+        version: "1"
     });
 });
 
