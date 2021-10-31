@@ -18,7 +18,7 @@ ServiceValidation.prototype.postValidation = (data) => {
     validator.clear();
     // Required validation
     validator.isRequired(data.name, 'The name field is required');
-    validator.isRequired(data.description, 'The Description field is mandatory.');
+    validator.isRequired(data.description, 'The Description field is required.');
     validator.isRequired(data.partner, 'The Professional field is required.');
     validator.isRequired(data.price, 'The Price field is required.');
     

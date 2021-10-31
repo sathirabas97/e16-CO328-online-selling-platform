@@ -240,19 +240,19 @@ export default {
           this.products[i].show = true;
           this.filterCategory(i, true);
         } else {
-          if(this.products[i].animal === 'Cachorro') {
+          if(this.products[i].animal === 'Puppy') {
               this.products[i].show = this.cachorro;
               this.filterCategory(i, this.cachorro);
           }
-          if(this.products[i].animal === 'Gato') {
+          if(this.products[i].animal === 'Cat') {
               this.products[i].show = this.gato;
               this.filterCategory(i, this.gato);
           }
-          if(this.products[i].animal === 'Pássaro') {
+          if(this.products[i].animal === 'Bird') {
               this.products[i].show = this.passaro;
               this.filterCategory(i, this.passaro);
           }
-          if(this.products[i].animal === 'Roedor') {
+          if(this.products[i].animal === 'Rodent') {
               this.products[i].show = this.roedor;
               this.filterCategory(i, this.roedor);
           }
@@ -265,16 +265,16 @@ export default {
       if(!this.racao && !this.acessorio && !this.brinquedo && !this.medicamento) {
         return;
       }
-      if(this.products[index].category === 'Ração') {
+      if(this.products[index].category === 'Portion') {
         this.products[index].show = (this.racao && value);
       }
-      if(this.products[index].category === 'Acessório') {
+      if(this.products[index].category === 'Accessory') {
         this.products[index].show = (this.acessorio && value);
       }
-      if(this.products[index].category === 'Brinquedo') {;
+      if(this.products[index].category === 'Toy') {;
         this.products[index].show = (this.brinquedo && value);
       }
-      if(this.products[index].category === 'Medicamento') {
+      if(this.products[index].category === 'medicine') {
         this.products[index].show = (this.medicamento && value);
       }
       this.products[index].price += 1;

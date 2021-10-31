@@ -58,7 +58,7 @@ export default {
 
 body {
   grid-area: app-main;
-  background-image: url("assets/img/inimal-bkg.jpg");
+  background-image: url("/static/img/inimal-bkg.jpg");
   background-repeat: repeat-y;
   height: 88vh;
 }
