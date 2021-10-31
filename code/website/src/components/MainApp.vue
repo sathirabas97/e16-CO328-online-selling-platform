@@ -9,7 +9,7 @@
     <div class="text-content">
       <h2>Who we are</h2>
       <img src="/static/img/icons/osso.png" alt="" class="img1">
-      <p>iNimal is one of the largest sales networks for products and services
+      <p>Akbar is one of the largest sales networks for products and services
         Specially geared towards pet care.</p>
       <img src="/static/img/icons/osso.png" alt="" class="img2">
     </div>
@@ -18,7 +18,7 @@
     <div class="text-content">
       <h2>Check out our products</h2>
       <img src="/static/img/icons/osso.png" alt="" class="img1">
-      <p>Here at iNimal you can find various items for your pet,
+      <p>Here at Akbar you can find various items for your pet,
         such as collars, feed, toys, among others. we count
         with a range of feed varieties, for any type of animal,
         of the best brands.</p>

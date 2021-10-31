@@ -18,7 +18,7 @@ CustomerValidation.prototype.postValidation = (data) => {
     validator.isRequired(data.name, 'The name field is required');
     validator.isRequired(data.email, 'The Email field is required');
     validator.isRequired(data.phone, 'The Phone field is required');
-    validator.isRequired(data.address, 'The Address field is mandatory');
+    validator.isRequired(data.address, 'The Address field is required');
     validator.isRequired(data.password, 'The Password field is required');
     
     // If one of the required fields is not completed

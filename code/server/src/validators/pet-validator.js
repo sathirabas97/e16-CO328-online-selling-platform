@@ -15,10 +15,10 @@ function PetValidation() {
 PetValidation.prototype.postValidation = (data) => {
     validator.clear();
     // Required validation
-    validator.isRequired(data.owner, 'The Owner field is mandatory');
+    validator.isRequired(data.owner, 'The Owner field is required');
     validator.isRequired(data.name, 'The name field is required');
-    validator.isRequired(data.race, 'The Race field is mandatory.');
-    validator.isRequired(data.age, 'The Age field is mandatory.');
+    validator.isRequired(data.race, 'The Race field is required.');
+    validator.isRequired(data.age, 'The Age field is required.');
     
     // If one of the required fields is not completed
     if(!validator.isValid()) {
